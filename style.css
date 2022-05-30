@@ -1,0 +1,40 @@
+*{
+    font-size: 16px;
+}
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu li {
+    display: inline;
+    padding: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.button {
+    background-color: #2DD35C;
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.logo {
+    margin-left: 10px;
+}
+.logo p {
+    color: #3b6ba5;
+}
